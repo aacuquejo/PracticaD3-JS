@@ -1,0 +1,56 @@
+#linea{
+    fill:none;
+    stroke:black;
+}
+
+
+#tooltip{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	padding: 10px;
+	background-color: blanchedalmond;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+	-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+	pointer-events: none;
+	
+}
+#tooltip.hidden{
+	display: none;
+}
+#tooltip p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+/*--------------------------------------------------------*/
+#tooltipCircle{
+	position: absolute;
+	width: 200px;
+	height: auto;
+	padding: 10px;
+	background-color: rgb(242, 255, 205);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+	-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+	pointer-events: none;
+	
+}
+#tooltipCircle.hidden{
+	display: none;
+}
+#tooltipCircle p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
